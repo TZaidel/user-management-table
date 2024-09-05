@@ -6,9 +6,9 @@ This project [User Management Table](https://github.com/) built using React, Red
 
 ## Features
 
-User Management Table: Displays user information such as name, username, email, and phone fetched from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users/).
-Filter: Filter by name, username, email, and phone.
-User-friendly interface: responsive page///////////////
+- User Management Table: displays user information such as name, username, email, and phone fetched from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users/).
+- Filter: filter by name, username, email, and phone.
+- Responsive interface: for various screen sizes and devices.
 
 ## Getting Started
 
