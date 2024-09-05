@@ -1,0 +1,58 @@
+.container {
+  background-color: #ebeaea;
+  padding: 10px 15px 25px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.input {
+  padding: 4px;
+  margin-bottom: 8px;
+  border: 0.5px solid #d1d1d1;
+  border-radius: 4px;
+}
+
+.input:focus {
+  border-color: #8000ff;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 20px 20px 40px;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .label {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    height: 100vh;
+    border-right: 1px solid #d1d1d1;
+  }
+
+  .title {
+    text-align: center;
+  }
+}
